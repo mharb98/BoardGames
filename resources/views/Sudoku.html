@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/welcome.css">
+        <link rel="stylesheet" href="/css/sudoku.css">
+    </head>
+    <body>
+        <header>
+            <h1>Sudoku Game</h1>
+        </header>
+        <div class="d-flex">
+           <div class = "left">
+               <h3>New Sudoku:</h3>
+               <button class = "dif-btn" id = "easy">Easy</button>
+               <br>
+               <br>
+               <button class = "dif-btn" id = "intermediate">Intermediate</button>
+               <br>
+               <br>
+               <button class = "dif-btn" id = "hard">Hard</button>
+               <br>
+               <br>
+               <button class = "dif-btn" id ="expert">Expert</button>
+               <br>
+               <br>
+           </div>
+           <div class = "newDiv">
+               <button class = "btn" id="restartButton">Restart</button>
+               <br>
+               <br>
+               <button class = "btn" id="hintButton">Hints:3</button>
+               <br>
+               <br>
+               <button class = "btn" id="noteButton">Notes:Off</button>
+               <br>
+               <br>
+               <button class = "btn" id="viewSolution">ViewSolution</button>
+           </div>
+           <div class = "middle">
+                   <table id = "myTable" border="2">
+                        <tbody id="table">
+                              
+                        </tbody>
+                    </table>
+            </div>
+            <div class = "right">
+                <p class = "Number" id = "1">1</p>
+                <p class = "Number" id = "2">2</p>
+                <p class = "Number" id = "3">3</p>
+                <p class = "Number" id = "4">4</p>
+                <p class = "Number" id = "5">5</p>
+                <p class = "Number" id = "6">6</p>
+                <p class = "Number" id = "7">7</p>
+                <p class = "Number" id = "8">8</p>
+                <p class = "Number" id = "9">9</p>
+                <p class = "Number" id = "clear">clear</p>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/sudoku.js"></script>
+</html>

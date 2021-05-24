@@ -1,0 +1,105 @@
+.Number{
+    font-size:20px;
+    border:2px solid black;
+    padding:5px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Number:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.rpac{
+    float: right;
+    width : 1300px;
+    height: 650px;
+}
+
+.lpac{
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.left{
+    margin-top: 50px; 
+    margin-left: 50px;
+    width: 200px;
+    float:left;
+}
+
+.newDiv{
+    float: left;
+    margin-left:30px;
+    margin-top: 110px;
+    margin-right: 0px; 
+}
+
+.middle{
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 500px;
+    float: left;
+    background-color: white;
+}
+
+.right{
+    margin-top: 30px;
+    margin-right: 150px;
+    float: right;
+}
+
+.l{
+    width: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+    float: left;
+}
+
+.r{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    float: left;
+}
+
+.x{
+    margin-top : 100px;
+    float : left;
+    margin-left : 200px;
+}
+
+#px{
+    border : 2px solid black;
+    padding : 20px 40px 20px 40px;
+    color : white;
+    background-color: palegreen;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#px:hover{
+    color : palegreen;
+    background-color: white;
+    cursor: pointer;
+}
+
+table{
+    width:500px; 
+    height:500px;
+    border-collapse: collapse;
+}
+
+#t{
+    width: 1300px;
+    height: 650px;
+}
+
+#tt{
+    width: 390px;
+    height: 390px;
+    background-color: white;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: #fbf3d4;
+    text-align: center;
+}
+
+.game{
+    width : 30%;
+    margin-left : 3%;
+    margin-top : 50px;
+    float: left;
+}
+
+.dif-btn,
+.btn{
+    width:150px;
+    height: 40px;
+    font-size:20px;
+    cursor: pointer;
+    color:white;
+    border-radius:10px; 
+    outline: none;
+}
+
+.btn{
+    background-color: #FF7F50;
+}
+
+.dif-btn{
+    background-color: palegreen;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #FF7F50;
+}
+
+.dif-btn:hover{
+    background-color: white;
+    color: palegreen;
+}
+
+.img{
+    width : 250px;
+    height : 250px;
+    border-radius : 20px;
+    border : 2px solid black;
+    margin-bottom: 20px;
+}
+
+.img:hover{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(232,232,232);
+}
